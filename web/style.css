@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; color: #1f2933; background: #f5f7fa; }
+header { display: flex; gap: 2rem; align-items: center; padding: 0.75rem 1.5rem; background: #243b53; color: #fff; }
+header a { color: #bcccdc; margin-right: 1rem; text-decoration: none; }
+header a:hover { color: #fff; }
+main { max-width: 960px; margin: 1.5rem auto; padding: 0 1rem; }
+h2 small { color: #829ab1; font-weight: normal; }
+form { display: flex; gap: 0.5rem; margin: 1rem 0; }
+input, select, button { padding: 0.4rem 0.6rem; font: inherit; }
+input { flex: 1; }
+button { cursor: pointer; }
+table { width: 100%; border-collapse: collapse; background: #fff; margin-top: 1rem; }
+th, td { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid #e4e7eb; }
+.status { padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.85rem; }
+.status.aberto { background: #fde8e8; color: #9b1c1c; }
+.status.em_andamento { background: #fef3c7; color: #92400e; }
+.status.fechado { background: #d1fae5; color: #065f46; }
+dl { display: grid; grid-template-columns: 9rem 1fr; gap: 0.25rem 1rem; }
+dt { color: #627d98; }
+dd { margin: 0; }
+.acoes { display: flex; gap: 0.5rem; margin: 1rem 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+.card { background: #fff; padding: 1rem; border-radius: 8px; color: #627d98; }
+.card span { display: block; font-size: 2rem; font-weight: 600; color: #1f2933; }
+.erro { color: #9b1c1c; }
